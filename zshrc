@@ -1,3 +1,5 @@
+export ZSH=$HOME/.oh-my-zsh
+
 # load custom executable functions
 for function in ~/.zsh/functions/*; do
   source $function
@@ -46,3 +48,12 @@ _load_settings "$HOME/.zsh/configs"
 
 # aliases
 [[ -f ~/.aliases ]] && source ~/.aliases
+
+# themes
+ZSH_THEME=powerlevel9k/powerlevel9k
+
+# plugins
+plugins=(git z tmux tmuxinator zsh-autosuggestions)
+
+[[ -s "$HOME/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" ]] && source "$HOME/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
+
