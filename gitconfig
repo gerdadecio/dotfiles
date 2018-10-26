@@ -101,12 +101,12 @@
   changed = green
   untracked = cyan
 [core]
-  excludesfile = ~/.gitignore
+	excludesfile = /Users/gerdadecio/.gitignore
   autocrlf = input
 [merge]
   ff = only
 [commit]
-  template = ~/.gitmessage
+	template = ~/.gitmessage
 [fetch]
   prune = true
 [rebase]
@@ -115,3 +115,12 @@
   path = ~/.gitconfig.local
 [diff]
   colorMoved = zebra
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[user]
+	name = Gerda Decio
+	email = gerdadecio@gmail.com

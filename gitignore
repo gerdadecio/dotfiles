@@ -12,4 +12,9 @@ tags
 tmp/**/*
 !tmp/cache/.keep
 *.pyc
-
+vendor/bundle/
+Dockerfile
+docker-compose.yml
+.dockerignore
+env_vars.sh
+setup_native_nfs_docker_osx.sh
