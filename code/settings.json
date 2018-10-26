@@ -1,0 +1,25 @@
+{
+  "[javascript]": {
+      "editor.formatOnSave": false
+  },
+  "workbench.colorCustomizations": {
+      "editor.selectionBackground": "#135564",
+      "editor.selectionHighlightBackground": "#135564"
+  },
+  "editor.minimap.enabled": false,
+  "files.insertFinalNewline": false,
+  "files.trimTrailingWhitespace": true,
+  "workbench.colorTheme": "One Dark Pro",
+  "terminal.integrated.fontFamily": "'SourceCodePro+Powerline+Awesome Regular'",
+  "terminal.integrated.fontSize": 11,
+  "editor.rulers": [80,120],
+  // The number of spaces a tab is equal to. This setting is overriden
+  // based on the file contents when `editor.detectIndentation` is true.
+  "editor.tabSize": 2,
+
+  // Insert spaces when pressing Tab. This setting is overriden
+  // based on the file contents when `editor.detectIndentation` is true.
+  "editor.insertSpaces": true,
+  "ruby.intellisense": "rubyLocate",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+}
